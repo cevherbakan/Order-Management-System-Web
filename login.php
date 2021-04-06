@@ -30,7 +30,7 @@
 $(document).ready(function(){
     $("#btnPost").click(function(){
       $.ajax({
-      url: '../methods/admin-login.php?key=123',
+      url: '..',
       dataType: 'json',
       type: 'post',
       contentType: 'application/json',
